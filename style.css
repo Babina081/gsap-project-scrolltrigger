@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(94, 174, 201);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(52, 128, 154);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#page4 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(4, 110, 145);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page5 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 61, 82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+}
+
+h1 {
+  font-size: 60px;
+  padding: 10px;
+  position: relative;
+  /* background-color: red; */
+}
+h2 {
+  font-size: 60px;
+  padding: 10px;
+  position: relative;
+  background-color: green;
+}
+
+#pin1page {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+#pin2page {
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+}
+#pin3page {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+
+#h1-pin-text {
+  font-size: 30vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* transform: translateX(-150%); */
+}
